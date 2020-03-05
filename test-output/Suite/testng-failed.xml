@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="validating Title(failed)">
+    <classes>
+      <class name="codenboxautomationlab.MavenExample.ValidTitleTest">
+        <methods>
+          <include name="pageTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- codenboxautomationlab.MavenExample.ValidTitleTest -->
+    </classes>
+  </test> <!-- validating Title(failed) -->
+  <test thread-count="5" name="validating NavigationBar(failed)">
+    <classes>
+      <class name="codenboxautomationlab.MavenExample.NavigationBarTest">
+        <methods>
+          <include name="basePageNavigationBar"/>
+          <include name="dropDownSelect"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- codenboxautomationlab.MavenExample.NavigationBarTest -->
+    </classes>
+  </test> <!-- validating NavigationBar(failed) -->
+  <test thread-count="5" name="validating Login(failed)">
+    <classes>
+      <class name="codenboxautomationlab.MavenExample.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageLogin"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- codenboxautomationlab.MavenExample.LoginPageTest -->
+    </classes>
+  </test> <!-- validating Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
